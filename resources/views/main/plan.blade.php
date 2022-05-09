@@ -73,13 +73,13 @@
                         <h2 class="title">長崎珈琲様</h2>
                         <h6 class="text">河口湖のほとりの珈琲屋さん</h6>
                         <table>
-			           		<tr><td rowspan="4">実装ページ</td>
+			           		<tr class="dot-line"><td rowspan="4">実装ページ</td>
 			           			<td colspan="2">ご案内</td></tr>
-			           			<tr><td colspan="2">ギャラリー</td></tr>
-			           			<tr><td colspan="2">お知らせ</td></tr>
-			           			<tr><td colspan="2">お問合せフォーム</td></tr>
-			           		<tr><td>依頼価格</td><td>約¥50,000</td></tr> 
-			           		<tr><td>制作時間</td><td colspan="2">3日</td></tr> 
+			           			<tr class="dot-line"><td colspan="2">ギャラリー</td></tr>
+			           			<tr class="dot-line"><td colspan="2">お知らせ</td></tr>
+			           			<tr class="solid-line"><td colspan="2">お問合せフォーム</td></tr>
+			           		<tr class="solid-line"><td>依頼価格</td><td>約¥50,000</td></tr> 
+			           		<tr class="solid-line"><td>制作時間</td><td colspan="2">3日</td></tr> 
 	           			</table>  
                     </div>
                 	 <div class="view-details">
@@ -106,13 +106,13 @@
 	        </div>
 	        <div class="col-sm-8 work-desc">
 	           	<table>
-	           		<tr><td rowspan="4">価格</td>
+	           		<tr class="dot-line"><td rowspan="4">価格</td>
 	           			<td>1ページ</td><td>¥10,000-</td></tr>
-	           			<tr><td>1ページスクロール型</td><td>¥30,000-</td></tr>
-	           			<tr><td>お知らせやブログ実装</td><td>¥30,000-</td></tr>
-	           			<tr><td>ランニングコスト</td><td>¥2,000/月</td></tr>
+	           			<tr class="dot-line"><td>1ページスクロール型</td><td>¥30,000-</td></tr>
+	           			<tr class="dot-line"><td>お知らせやブログ実装</td><td>¥30,000-</td></tr>
+	           			<tr class="solid-line"><td>ランニングコスト</td><td>¥2,000/月</td></tr>
 	           	
-	           		<tr><td>制作時間</td><td colspan="2">1週間ほど</td></tr> 
+	           		<tr class="solid-line"><td>制作時間</td><td colspan="2">1週間ほど</td></tr> 
 	           		
 	           	</table>        	      
 	        </div>

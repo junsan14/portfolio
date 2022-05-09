@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>junsan14｜HP制作開発</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
