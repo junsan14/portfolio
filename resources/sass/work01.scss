@@ -1,0 +1,456 @@
+
+@import '~bootstrap/scss/bootstrap';
+
+$s-margin:5px;
+$m-margin:10px;
+$l-margin:15px;
+$breakpoint-sm: 400px !default;
+$breakpoint-md: 768px !default;
+$breakpoint-lg: 1000px !default;
+$breakpoints: (
+  'sm': 'screen and (max-width: 400px)',
+  'md': 'screen and (max-width: 768px)',
+  'lg': 'screen and (max-width: 1000px)',
+  'xl': 'screen and (min-width: 1200px)',
+) !default;
+
+@mixin mq($breakpoint: md) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: 'RocknRoll One', sans-serif;
+	 font-size: 15px;
+	 z-index: 3;
+	@include mq(md){
+		font-size: 12px;
+	}
+	
+	& li{
+		list-style: none;
+	}
+	& a{
+		text-decoration: none;
+		color:#505A5F;
+		&:hover{
+			color:#111;
+		}
+	}
+}  
+
+.no-scroll{
+	 	overflow-y: hidden;
+	 }
+
+.header{
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 3;
+	top: 0;
+	background: rgba(255,255,255, .8);
+	& .shop-name{
+		display: none;
+		@include mq(sm){
+			display: inline;
+			width: auto;
+			position: absolute;
+			top:10px;
+			left:10px;
+		}
+	}
+	
+	& .menu{
+		margin: 0 auto;
+		float: right;
+		display: flex;
+		position:absolute;
+		top:10px;
+		right: 50px;
+		align-items:center;
+		& .menu-item{
+			margin: $l-margin;
+			text-align: center;
+
+		}
+		@include mq(lg){
+			& .menu-item{
+				margin: 0;
+				margin-top:$m-margin;
+			}
+		}
+	}
+
+	@include mq(lg){
+		height: 40px;
+
+		& .menu{
+			opacity: 0;
+			 pointer-events: none;
+			transition: all ease .5s;
+		}
+
+		& .menu.active{
+			pointer-events: auto;
+			opacity: .96;
+			position: relative;
+			transition: all ease .5s;
+			display: block;
+			top:40px;
+			height: 100vh;
+			width: 100%;
+			background: rgb(255,255,255);
+			text-align: center;
+			line-height: 80px;
+			margin-top: -10px;
+			font-size: 20px;
+			right: 0;
+
+			& a{
+				color: black;
+			}
+		}
+		& .smart-menu{
+			position: relative;
+			z-index: 10;
+			display: block;
+			float: right;
+			height: 20px;
+			width: auto;
+			& .top::after{
+				content: '';
+				position: absolute;
+				top:10px;
+				width: 30px;
+				height: 30px;
+				right:  10px;
+				border-top:1px solid;
+				border-color: black;
+				transition: all ease .5s;
+				
+			}
+			& .middle::after{
+				content: '';
+				position: absolute;
+				top:20px;
+				width: 30px;
+				height: 30px;
+				right:  10px;
+				border-top:1px solid;
+				border-color: black;
+				transition: all ease .9s;
+			}
+			& .bottom::after{
+				content: '';
+				position: absolute;
+				top:30px;
+				width: 30px;
+				height: 30px;
+				right: 10px;
+				border-top:1px solid;
+				border-color:black;
+				transition: all ease .5s;
+			}
+
+			&.active{
+				transition: all ease .5s;
+			& .top::after{
+				top: 10px;
+    			right: 10px;
+				transform: translateY(10px) translateX(-10px) rotate(45deg);
+				transition: all ease .5s;
+				
+			}
+			& .middle::after{
+				display: none;
+				transition: all ease .9s;
+			}
+			& .bottom::after{
+				top: 10px;
+    			right:  10px;
+				transform:translateY(10px) translateX(10px) rotate(-45deg);
+				transition: all ease .5s;
+			}
+			}
+		}
+	}
+
+}
+
+.main{
+	width: 100%;
+	background:#ffffff;
+
+}
+.top{
+		height: 100vh;
+	& .shop{
+		text-align: center;
+		font-family: 20px;
+		margin-top: 230px;
+		@include mq(sm){
+			display: none;
+		}
+		
+	}
+	& .shop-smart{
+		padding-top: 20px;
+		text-align: center;
+		display: none;
+		@include mq(md){
+			display: block;
+		}
+	}
+}
+
+.js-fadeIn{
+	opacity: 0;
+	transition: ease 1.5s;
+	&.show{
+		opacity: 1;
+		transition: ease 1.5s;
+	}
+}
+
+.row{
+	display: flex;
+	margin-top:100px;
+	margin-bottom:100px;
+	& .col-title{
+		text-align: center;
+	}
+	& .col-sub-title{
+		@include mq(md){
+			text-align: center;
+		}
+	}
+	& .col-desc{
+		line-height: 40px;
+		padding: 5px;
+		@include mq(md){
+			text-align: center;
+		}
+	}
+	& .right{
+		float: right;
+	}
+	 & img{
+	 	width: 400px;
+	 	margin: 20px;
+	 	box-shadow: 0 3px 3px 3px rgba(0,0,0,.4);
+	 		@include mq(md){
+	 		width: 90%;
+	 	}
+	 	& iframe{
+	 		box-shadow: 0 3px 3px 0 rgba(0,0,0,.4);
+	 	}	
+	 }
+	 & table{
+	 	margin: 0 auto;
+	 	& tr{
+	 		padding: 10px;
+	 		& td{
+	 			padding: 10px;
+	 			margin: 10px;
+	 		}
+	 	}
+	 }
+}
+
+.profile{
+	display: flex;
+	justify-content:center;
+	& .profile-person{
+		margin: 10px;
+	}
+	& .profile-image{
+		width: 100px;
+		height: 100px;
+		border-radius: 100px;
+
+	}
+}
+
+.modal-bg{
+	background: rgb(0,0,0,.7);
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 4;
+	display: none;
+
+
+	& .close-modal {
+		position: absolute;
+		left: 20px;
+		top:0;
+		font-size: 40px;
+		z-index: 5;
+
+		@include mq(md){
+			left: 10px;
+			top:-10px;
+			font-size: 30px;
+
+		}
+
+		&:hover{
+			cursor: pointer;
+		}
+	}
+	& .click-prev{
+		position: absolute;
+		z-index: 5;
+		top:45%;
+		left:21%;
+		font-size: 30px;
+		@include mq(md){
+		left: 5%;
+		bottom:250px;
+		font-size: 20px;
+		}
+		&:hover{
+			cursor: pointer;
+		}
+	}
+	& .click-next{
+		position: absolute;
+		z-index: 5;
+		top:45%;
+		right: 21%;
+		font-size: 30px;
+		display: inline-block;
+		@include mq(md){
+		right: 5%;
+		bottom:230px;
+		font-size: 20px;
+		}
+		&:hover{
+			cursor: pointer;
+		}
+	}
+	& .slide-num{
+		position: absolute;
+		z-index: 5;
+		margin: 0 auto;
+		right: 10px;
+		bottom:10px;
+		width: auto;
+		
+	}
+}
+.slider-button{
+	margin: 10px;
+	float: right;
+	&:hover{
+		cursor: pointer;
+	}
+}
+.click-slider{
+	position: relative;
+
+	margin: 0 auto;
+	top:10%;
+	width: 60%;
+	height: 80%;
+	@include mq(md){
+		width: 100%;
+		height: 30%;
+		top:30%;
+	}
+	&.show{
+		opacity: 1;
+	}
+	& .click-slider-item{
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0;
+		transition: ease .5s;
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		@include mq(md){
+		width: 100%;
+	  }
+		&.show{
+			opacity: 1;
+			transition: ease .5s;
+		}
+	}
+}
+
+	
+
+
+.slider{
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	@include mq(md){
+		height: 100%;
+	}
+
+	& .slider-item{
+		position: absolute;
+		top:0;
+		left: 0;
+		width: 100%;
+		transition: ease 1s;
+		opacity: 0;
+		&.show{
+			opacity: 1;
+			transition: ease 1s;
+		}
+	}
+}
+.btn{
+	color:#505A5F;
+	border: 1px solid rgba(0,0,0,.3);
+	background: #ffffff;
+	transition: ease .5s;
+	&:hover{
+		border: 1px solid rgba(0,0,0,.6);
+		transition: ease .5s;
+		color:#111;
+		background: #ffffff;
+	}
+}
+
+.photo{
+	display: flex;
+	& .imgage{
+		margin: 0 auto;
+	}
+	& .gallery-image{
+		width: 250px;
+
+	}
+}
+
+
+.footer{
+	width: 100%;
+	height: 50px;
+	background:rgb(0,0,0, .8);
+	color: rgb(255,255,255,.6);
+	line-height: 50px;
+	margin-top: 100px;
+	& .copyright{
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
