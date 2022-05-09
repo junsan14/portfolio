@@ -10,14 +10,14 @@
     <title>韓国惣菜BANCHAN</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/work01.js') }}" defer></script>
+    <script src="{{ secure_asset('js/work01.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/work01.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('css/work01.css') }}" rel="stylesheet">
 
 
     
