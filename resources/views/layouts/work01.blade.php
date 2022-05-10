@@ -7,17 +7,17 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>韓国惣菜BANCHAN</title>
+    <title>店舗HPポートフォリオ</title>
 
     <!-- Scripts -->
-    <script src="{{ secure_asset('js/work01.js') }}" defer></script>
+    <script src="{{asset('js/work01.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ secure_asset('css/work01.css') }}" rel="stylesheet">
+    <link href="{{asset('css/work01.css') }}" rel="stylesheet">
 
 
     
@@ -39,11 +39,11 @@
             <div class="col-sm menu-item"><a href="#menu">MENU</a></div>
             <div class="col-sm menu-item"><a href="#location">LOCATION</a></div>
             <div class="col-sm menu-item"><a href="#contact">CONTACT</a></div>
-            <a href="tel:044-299-9162" target="_blank">
+            <a href="tel:0120-123-456" target="_blank">
                 <img class="col-sm menu-item" style="width: 30px;" src="{{asset('images/tel.png')}}">
             </a>
-            <a href="https://www.instagram.com/banchan_yurigaoka/" target="_blank">
-                <img class="col-sm menu-item" style="width: 20px;" src="{{asset('images/work01/insta.png')}}">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="col-sm menu-item" style="width: 20px;" src="{{asset('images/insta.png')}}">
             </a>
             @guest
             @else

@@ -7,17 +7,17 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>カフェHPポートフォリオ</title>
 
     <!-- Scripts -->
-    <script src="{{ secure_asset('js/work02.js') }}" defer></script>
+    <script src="{{asset('js/work02.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ secure_asset('css/work02.css') }}" rel="stylesheet">
+    <link href="{{asset('css/work02.css') }}" rel="stylesheet">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,8 +39,8 @@
             <div class="col-sm menu-item"><a href="{{route('articles','02')}}">お知らせ</a></div>
             <div class="col-sm menu-item"><a href="{{route('location','02')}}">店舗情報</a></div>
             <div class="col-sm menu-item"><a href="{{route('contact','02')}}">お問合せ</a></div>
-            <a href="https://www.instagram.com/nagasakicoffee/" target="_blank">
-                <img class="col-sm menu-item" style="width: 25px;" src="{{asset('images/work01/insta.png')}}">
+            <a href="https://www.instagram.com/" target="_blank">
+                <img class="col-sm menu-item" style="width: 25px;" src="{{asset('images/insta.png')}}">
             </a>
             @guest
             @else
@@ -63,7 +63,7 @@
     @endif
         
         <div class="logo">
-                <img src="{{ asset('images/work02/logo.png')}}">
+                <img src="{{ asset('images/logo.png')}}">
       
         </div>
         
@@ -75,7 +75,7 @@
 
     <footer class="footer">
         <div class="copyright">
-            <p>CopyRight reserved by jun 2021</p>
+            <p>CopyRight reserved by jun 2022</p>
         </div>
     </footer>
 

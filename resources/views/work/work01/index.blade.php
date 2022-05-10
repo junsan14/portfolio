@@ -8,32 +8,32 @@
 		  <div class="col-sm-6">
 	        <div class="slider js-slider col-content">
 				<div class="slider-item js-slider-item show">
-					<img src="{{asset('images/work01/top01.jpeg')}}">
+					<img src="{{asset('images/portfolio/port01.jpeg')}}">
 				</div>
 				<div class="slider-item js-slider-item">
-					<img src="{{asset('images/work01/top02.jpeg')}}">
+					<img src="{{asset('images/portfolio/port02.jpeg')}}">
 				</div>
 				
 				<div class="slider-item js-slider-item">
-					<img src="{{asset('images/work01/top03.jpeg')}}">
+					<img src="{{asset('images/portfolio/port03.jpeg')}}">
 				</div>
 				<div class="slider-item js-slider-item">
-					<img src="{{asset('images/work01/top04.jpeg')}}">
+					<img src="{{asset('images/portfolio/port04.jpeg')}}">
 				</div>
 				<div class="slider-item js-slider-item">
-					<img src="{{asset('images/work01/top05.jpeg')}}">
+					<img src="{{asset('images/portfolio/port05.jpeg')}}">
 				</div>
 			</div>
 			<div class="shop-smart">			
-					<h2 class="shop-name"> 韓国惣菜BANCHAN </h2>
-					<h4 class="shop-desc"> 路地裏の小さな韓国 </h4>
+					<h2 class="shop-name"> お店の名前お店の名前 </h2>
+					<h4 class="shop-desc"> サブタイトルサブタイトル </h4>
 				</div>
 		  </div>
 
 			  <div class="col-sm-6">
 		        <div class="col-content shop">			
-					<h2 class="shop-name"> 韓国惣菜BANCHAN </h2>
-					<h4 class="shop-desc"> 路地裏の小さな韓国 </h4>
+					<h2 class="shop-name">  お店の名前お店の名前  </h2>
+					<h4 class="shop-desc"> サブタイトルサブタイトル </h4>
 				</div>
 			  </div>
 
@@ -48,29 +48,22 @@
 
 				<div class="col-desc">
 					
-					美味しいもの食べたいけど作る元気がない..<br>
-					ママ友とたまには美味しいものを食べたい！<br><br>
+					お店の情報お店の情報お店の情報お店の情報<br>
+					お店の情報お店の情報お店の情報お店の情報<br><br>
 					
-					<h5>そんな時はバンチャンに<br>おまかせください！</h5>
+					<h5>お店の情報お店の情報お店の情報お店の情報</h5>
 
 					
-					多国籍夫婦がアットホームな韓国料理をお届けします
+					お店の情報お店の情報お店の情報お店の情報
 
 				</div>
 
 				<div class="profile">
 					<div class="profile-person">
-						<img src="{{asset('images/work01/profile_person01.jpg')}}" class="profile-image">
+						<img src="{{asset('images/profile.jpg')}}" class="profile-image">
 						<div class="profile-desc">
-							As an American<br>
-						Former resort hotel cheff<br>
-						</div>
-					</div>
-					<div class="profile-person">
-						<img src="{{asset('images/work01/profile_person02.jpg')}}" class="profile-image">
-						<div class="profile-desc">
-							As a Korean<br>
-							Former resort hotel staff<br>
+							プロフィール情報<br>
+							プロフィール情報<br>
 						</div>
 					</div>
 
@@ -80,10 +73,10 @@
 		  </div>	
 		  <div class="col-sm-6">
 		 	<div class="col-pic left js-fadeIn">
-	        	<img src="{{asset('images/work01/profile02.jpeg')}}" alt="">
+	        	<img src="{{asset('images/portfolio/land01.jpeg')}}" alt="">
 	        </div>
 	        <div class="col-pic right js-fadeIn">
-	        	<img src="{{asset('images/work01/profile01.jpeg')}}" alt="">
+	        	<img src="{{asset('images/portfolio/land02.jpeg')}}" alt="">
 	    	</div>
 		  </div>
 
@@ -96,22 +89,22 @@
 				
 				<h2 class="col-title"> MENU </h2><br>
 				<table>LUNCH
-					<tr><td>BANCHAN定食</td><td>¥1,380</td><td></td>
-					<tr><td>プルコギ定食</td><td>¥1,080</td><td>
-					<tr><td>豚の甘辛定食</td><td>¥980</td>	
-					<tr><td>サムゲタン定食</td><td>¥1,380</td>					
+					<tr><td>メニュー名1</td><td>¥1,380</td><td></td>
+					<tr><td>メニュー名2</td><td>¥1,080</td><td>
+					<tr><td>メニュー名3</td><td>¥980</td>	
+					<tr><td>メニュー名4</td><td>¥1,380</td>					
 				</table>
 				<table >TAKE OUT
-					<tr><td>キンパ</td><td>¥580〜</td><td></td>
-					<tr><td>どんぶり</td><td>¥650〜</td><td>
-					<tr><td>一品</td><td>¥680〜</td>	
-					<tr><td>スープ</td><td>¥750〜</td>					
+					<tr><td>メニュー名1</td><td>¥580〜</td><td></td>
+					<tr><td>メニュー名2</td><td>¥650〜</td><td>
+					<tr><td>メニュー名3</td><td>¥680〜</td>	
+					<tr><td>メニュー名4</td><td>¥750〜</td>					
 				</table>
 				<table>DINNER
-					<tr><td>チヂミ</td><td>¥580〜</td><td></td>
-					<tr><td>キンパ</td><td>¥580〜</td>
-					<tr><td>ビビンバ</td><td>¥750〜</td><td>
-					<tr><td>サムゲタン</td><td>¥1,280〜</td>	
+					<tr><td>メニュー名1</td><td>¥580〜</td><td></td>
+					<tr><td>メニュー名2</td><td>¥580〜</td>
+					<tr><td>メニュー名3</td><td>¥750〜</td><td>
+					<tr><td>メニュー名4</td><td>¥1,280〜</td>	
 										
 				</table>
 				
@@ -123,10 +116,10 @@
 		  			<div class="js-click-prev click-prev"><</div>
 					<div class="js-click-slider click-slider">
 						<div class="js-close-modal close-modal">×</div>
-						<img class="js-click-slider-item click-slider-item show" src="{{asset('images/work01/menu01.jpg')}}" alt="">
-						<img class="js-click-slider-item click-slider-item" src="{{asset('images/work01/menu02.jpg')}}" alt="">
-						<img class="js-click-slider-item click-slider-item" src="{{asset('images/work01/menu04.jpg')}}" alt="">
-						<img class="js-click-slider-item click-slider-item" src="{{asset('images/work01/menu03.jpg')}}" alt="">
+						<img class="js-click-slider-item click-slider-item show" src="{{asset('images/portfolio/land07.jpeg')}}" alt="">
+						<img class="js-click-slider-item click-slider-item" src="{{asset('images/portfolio/land08.jpeg')}}" alt="">
+						<img class="js-click-slider-item click-slider-item" src="{{asset('images/portfolio/land09.jpeg')}}" alt="">
+						<img class="js-click-slider-item click-slider-item" src="{{asset('images/portfolio/land10.jpeg')}}" alt="">
 						
 						<div class="js-slide-num slide-num">1/4</div>
 					</div>
@@ -135,10 +128,10 @@
 			</div>
 		  <div class="col-sm-7">
 		 	<div class="col-pic left js-fadeIn">
-	        	<img src="{{asset('images/work01/menutop01.jpg')}}" alt="">
+	        	<img src="{{asset('images/portfolio/land04.jpeg')}}" alt="">
 	        </div>
 	        <div class="col-pic right js-fadeIn">
-	        	<img src="{{asset('images/work01/menutop02.jpg')}}" alt="">
+	        	<img src="{{asset('images/portfolio/land05.jpeg')}}" alt="">
 	    	</div>
 		  </div>
 
@@ -150,17 +143,17 @@
 	        <div class="col-content js-fadeIn">
 				<h2 class="col-title"> LOCATION </h2><br>
 				<table>
-					<tr><td>ADDRESS</td><td>神奈川県川崎市麻生区百合ヶ丘2-3-6</td></tr>
-					<tr><td>TEL</td><td>044-299-9162</td></tr>
+					<tr><td>ADDRESS</td><td>〒110-0005 東京都台東区上野７丁目</td></tr>
+					<tr><td>TEL</td><td>0120-111-111</td></tr>
 					<tr><td>OPEN</td><td>11:00～21:00</td></tr>
-					<tr><td>CLOSE</td><td>日,月（まれに不定休有）</td></tr>
-					<tr><td>OTHERS</td><td>三和百合ヶ丘店駐車場2時間無料</td></tr>
+					<tr><td>CLOSE</td><td>不定休</td></tr>
+					
 
 				</table>
 			</div>
 		  </div>
 		  <div class="col-sm-7 js-fadeIn">
-		 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d816.5859148135522!2d139.5126406689355!3d35.60845857933962!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018fa6e6580d98b%3A0x1aa95a49f180caa8!2z55m-5ZCI44O25LiY6aeF!5e0!3m2!1sja!2sjp!4v1651402376412!5m2!1sja!2sjp" width="100%" height="350" style="border:0;　filter:grayscale(100%);-webkit-filter:grayscale(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12958.287764465273!2d139.76265314999998!3d35.71215005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188e9e93d3060b%3A0x6c89b36d7b4f9244!2z5LiK6YeO6aeF!5e0!3m2!1sja!2sjp!4v1652155598951!5m2!1sja!2sjp" width="100%" height="400px" style="border:0;filter:grayscale(100%);" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		  </div>
 		</div>
 	
