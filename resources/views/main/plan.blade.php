@@ -35,8 +35,7 @@
 			           			<tr class="dot-line"><td colspan="2">MENU</td></tr>
 			           			<tr class="dot-line"><td colspan="2">LOCATION</td></tr>
 			           			<tr class="solid-line"><td colspan="2">CONTACT</td></tr>
-			           		<tr class="solid-line"><td>参考価格</td><td>約¥50,000</td></tr> 
-			           		<tr class="solid-line"><td>制作時間</td><td colspan="2">2日</td></tr> 
+			           		<tr class="solid-line"><td>制作時間</td><td colspan="2">30時間（4日）</td></tr> 
 	           			</table> 
                     </div>
                 	 <div class="view-details">
@@ -77,8 +76,7 @@
 			           			<tr class="dot-line"><td colspan="2">ギャラリー</td></tr>
 			           			<tr class="dot-line"><td colspan="2">お知らせ</td></tr>
 			           			<tr class="solid-line"><td colspan="2">お問合せフォーム</td></tr>
-			           		<tr class="solid-line"><td>参考価格</td><td>約¥50,000</td></tr> 
-			           		<tr class="solid-line"><td>制作時間</td><td colspan="2">3日</td></tr> 
+			           		<tr class="solid-line"><td>制作時間</td><td colspan="2">20時間（3日）</td></tr> 
 	           			</table>  
                     </div>
                 	 <div class="view-details">
@@ -94,6 +92,7 @@
 
 
 
+<!--
 
 
 <div id="simple" class="content show">
@@ -118,6 +117,7 @@
 	    </div>
 </div>
 
+-->
 
 
 

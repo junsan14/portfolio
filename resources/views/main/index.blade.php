@@ -9,7 +9,7 @@
 <div id="top" class="row show top">
     <div class="top-content">
         <h2 class="top-title"> JUNSAN14</h2>
-        <h5 class="top-desc">A FREELANCE WEB DESIGNER & CREATER <br>
+        <h5 class="top-desc">A WEB DESIGNER & CREATER <br>
                              AS FORMER HOTEL MAN
         </h5>
     </div>
@@ -25,9 +25,7 @@
             イギリスロンドン大学留学に,NPO法人<br>
             「 Japanese Language Cultural Excgange」設立<br>
             2018年帰国後,星野リゾートマネジメント入社<br>
-            フロントマネージャ,社内システムエンジニアに従事<br>
-            2022年退社後,WEB制作、開発エンジニアとして、フリーランスで活動<br>
-            元ホテルマンの経験を活かしたWEB制作、開発を心がけています
+            フロントマネージャ-,社内システムエンジニアに従事<br>
             <br>
 
 
@@ -50,16 +48,12 @@
                                  <div class="skills-sub js-slide-content">Tailwind CSS</div>
                             </div>
                             <div class="skills-main"> JavaScript
-                                <div class="skills-sub js-slide-content">React.js</div>
                                  <div class="skills-sub js-slide-content">Vue.js</div>
-                                 <div class="skills-sub js-slide-content">Backbone.js</div>
                                  <div class="skills-sub js-slide-content">Google Apps Script</div>
                                  <div class="skills-sub js-slide-content">jQuery</div>
                             </div>
                             <div class="skills-main"> PHP
                                 <div class="skills-sub js-slide-content">Laravel PHP</div>
-                                <div class="skills-sub js-slide-content">FuelPHP</div>
-                                 <div class="skills-sub js-slide-content">CakePHP</div>
                             </div>
                 </div> 
 
