@@ -38,7 +38,7 @@
         </div>  
         <div class="menu">
             <div class="col-sm menu-item"><a href="{{route('index')}}">ABOUT</a></div>
-            <div class="col-sm menu-item"><a href="{{route('plan')}}/">WORKS</a></div>
+            <div class="col-sm menu-item"><a href="{{route('plan')}}/">WORK</a></div>
             <div class="col-sm menu-item"><a href="http://www.googlesheetsguide.tech/" target="_blank">BLOG</a></div>
             <div class="col-sm menu-item"><a href="{{route('contact.index')}}">CONTACT</a></div>
             @guest
